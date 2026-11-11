@@ -13,9 +13,8 @@ https://status.solutionzeroone.com
 https://sandbox.solutionzeroone.com
 # code.solutionzeroone.com and monitoring.solutionzeroone.com have no public DNS (LAN only), so they are not checked here.
 
-# PENDING: on Cloudflare but not pointing at the home server yet (525 on 2026-11-11). Uncomment each once its Cloudflare DNS record
-# points at msohaib2.asuscomm.com and nginx serves it.
-#https://getsolutionzeroone.com
-#https://getsolutionzeroone.info
-#https://getsolutionzeroone.org
-#https://getsolutionzeroone.store
+# Parked names, redirect to https://solutionzeroone.com (nginx vhost "getsolutionzeroone" on VM 103)
+https://getsolutionzeroone.com
+https://getsolutionzeroone.info
+https://getsolutionzeroone.org
+https://getsolutionzeroone.store
