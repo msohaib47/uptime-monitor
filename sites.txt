@@ -1,0 +1,21 @@
+# One URL per line. A site is UP when it answers with an HTTP status below 500 (401/403 count: those pages are access-locked on purpose).
+# Cloudflare 52x errors, timeouts and DNS failures count as DOWN. Lines starting with # are ignored.
+https://solutionzeroone.com
+https://www.solutionzeroone.com
+https://alhadiassociation.com
+https://www.alhadiassociation.com
+https://admin.alhadiassociation.com
+https://hffmn.org
+https://www.hffmn.org
+https://chatbot.solutionzeroone.com/health
+https://leads.solutionzeroone.com
+https://status.solutionzeroone.com
+https://sandbox.solutionzeroone.com
+# code.solutionzeroone.com and monitoring.solutionzeroone.com have no public DNS (LAN only), so they are not checked here.
+
+# PENDING: on Cloudflare but not pointing at the home server yet (525 on 2026-11-11). Uncomment each once its Cloudflare DNS record
+# points at msohaib2.asuscomm.com and nginx serves it.
+#https://getsolutionzeroone.com
+#https://getsolutionzeroone.info
+#https://getsolutionzeroone.org
+#https://getsolutionzeroone.store
