@@ -8,6 +8,8 @@ https://admin.alhadiassociation.com
 https://hffmn.org
 https://www.hffmn.org
 https://chatbot.solutionzeroone.com/health
+https://zed.solutionzeroone.com/health
+https://www.solutionzeroone.com/health
 https://leads.solutionzeroone.com
 https://status.solutionzeroone.com
 https://sandbox.solutionzeroone.com
